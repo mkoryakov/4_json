@@ -3,8 +3,8 @@ import argparse
 
 
 def load_data(filepath):
-    with open(filepath) as jsonObj:
-        data = json.load(jsonObj)
+    with open(filepath) as json_handler:
+        data = json.load(json_handler)
     return data
 
 
